@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.header {
+    margin: auto;
+    border: 3px solid rgb(180, 180, 180);
+    background-color: rgb(211, 211, 211);
+    font-size: 12px;
+}
+
+.header ul {
+    padding-left: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header ul li a:hover{
+    color: rgb(255, 68, 0);
+}
+
+.yurak {
+    color: red;
+    
+}
+
+.header ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+.header-span {
+    font-size: 20px;
+    color: black;
+}
+
+.header-span:hover {
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.header img {
+    cursor: pointer;
+}
+
+header {
+    overflow: auto;
+    padding: 10px 20px;
+}
+
+header input {
+    padding: 5px 9px;
+    width: 600px;
+    border: 3px solid coral;
+}
+
+.mezes-logo {
+    float: left;
+}
+
+.lupa {
+    background-color: rgb(255, 133, 89);
+    float: right;
+    border: 2px solid coral;
+}
+
+.box-99 {
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.containerr {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.containerr a {
+    text-decoration: none;
+    color: black;
+}
+
+.containerr p , .containerr ul{
+    display: inline;
+}
+
+.containerr ul li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+
+.containerr ul li a:hover {
+    color: rgb(255, 68, 0);
+}
+
+.containerr p a{
+    background-color: #999;
+    padding: 5px 100px 5px 20px;
+    border-radius: 5px;
+    margin-right: 40px;
+    font-weight: 800;
+    border-bottom: 3px solid rgb(128, 128, 128);
+}
+
+.li1 {
+    padding: 4px 10px !important;
+    background-color: yellow;
+    border-radius: 3px;
+}
+
+.li2 a{
+    color: coral ;
+}
+
+.containerr ul li a {
+    font-weight: 800;
+}
+
+.qator_menyu ul li a{
+    
+}
+
+.qator_menyu ul li {
+    list-style: none;
+    background-color: rgb(196, 196, 196);
+    padding: 7px;
+    padding-right: 0;margin-left: 20px;
+    
+}
+
+.qator_menyu ul li:hover {
+    background-color: rgb(150, 150, 150);
+    box-shadow: -5px 0 20px; 
+}
+
+.qator_menyu ul li:last-child:hover {
+    box-shadow: -5px 5px 20px;
+}
+
+.qator_menyu ul li:first-child {
+    padding-top: 15px;
+}
+
+.qator_menyu {
+    width: 187px;
+    float: left;
+}
+
+.clr {
+    clear: both;
+}
+
+.qator_menyu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.middle img {
+    float: left;
+    margin-top: 5px;
+}
+
+.registratsiya {
+    width: 200px;
+    height: 198px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 1px;
+    margin-top: 5px;
+    float: left;
+}
+
+.registratsiya img {
+    margin: 10px 0 0 65px;
+    border-radius: 50%;
+}
+
+.registratsiya img:hover {
+    box-shadow: 0 0 30px;
+}
+
+.registratsiya button {
+    display: block;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button_reg1 {
+    margin: 10px 0 10px 45px;
+    background-color: coral;
+    color: white;
+}
+
+.button_reg1:hover {
+    box-shadow: 0 0 15px;
+}
+
+.button_reg2 {
+    margin-left: 80px;
+    background-color: rgb(245, 245, 245);
+}
+
+.button_reg2:hover {
+    box-shadow: 0 0 15px;
+}
+
+.registratsiya a {
+    text-decoration: none;
+    color: black;
+}
+
+.registratsiya p a{
+    color: -webkit-link;
+    
+}
+
+.registratsiya p {
+    text-align: center;
+    line-height: 12px;
+    padding: 5px;
+    font-size: 12px;
+    margin: 10px 0 0 10px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.rasml img {
+    margin: 10px 0 0 400px;
+}
+
+.malumot {
+    text-align: center;
+    width: 895px;
+    line-height: 22px;
+    padding-bottom: 60px;
+    border-bottom: 3px solid #555;
+}
+
+.oxiri1 ul li, .oxiri2 ul li {
+    list-style: none;
+    line-height: 30px;
+}
+
+.oxiri1 ul li a, .oxiri2 ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.oxiri {
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+.oxiri1 {
+    width: 250px;
+    float: left;
+}
+
+.oxiri {
+    padding-top: 30px;
+}
+
+.oxiri2 {
+    float: left;
+}
+
+.oxiri3 {
+    float: right;
+    text-align: center;
+    margin-right: 110px;
+    line-height: 20px;
+}
+
+.oxiridagi-tel-nomer {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.oxiridagi-tel-nomer p:last-child {
+    
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.oxiridagi-email p:last-child {
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
